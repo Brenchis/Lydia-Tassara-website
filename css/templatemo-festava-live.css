@@ -352,7 +352,7 @@ strong {
 -----------------------------------------*/
 
 
-.sticky-wrapper.is-sticky .navbar {
+.navbar {
   background-color: var(--p-color);
   opacity: 95%;
 }
@@ -452,8 +452,12 @@ strong {
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
+
+#ordendetexto {
+  padding-top: 15vh;
+}
 .hero-section {
-  position: relative;
+  position: static;
   overflow: hidden;
   padding-top: 100px;
   height: calc(100vh - 51px);
