@@ -20,7 +20,7 @@ https://templatemo.com/tm-583-festava-live
   --dark-color:                   #262626;
   --p-color:                      #BFBFBF75;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --link-hover-color:             #773ec5;
 
   --body-font-family:             'Montserrat', sans-serif;
   --text-font-family:             'Raleway', sans-serif;
@@ -54,30 +54,16 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--dark-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: var(--font-weight-bold);
-}
-
 h1 {
   font-size: var(--h1-font-size);
   color:var(--white-color);
+  font-weight: var(--font-weight-bold)
 }
 
 h2 {
   font-size: var(--h2-font-size);
+  color:var(--dark-color);
+  font-weight: var(--font-weight-bold)
 }
 
 h3 {
@@ -86,6 +72,8 @@ h3 {
 
 h4 {
   font-size: var(--h4-font-size);
+  color:var(--white-color);
+  font-weight: var(--font-weight-bold)
 }
 
 h5 {
@@ -97,8 +85,9 @@ h6 {
 }
 
 p {
-  color: var(--p-color);
+  color:var(--white-color);
   font-size: var(--p-font-size);
+  font-family: var(--text-font-family);
   font-weight: var(--font-weight-light);
 }
 
@@ -208,6 +197,10 @@ strong {
 
 .link-fx-1 .icon line:last-child {
   transform-origin: 19px 15px;
+}
+
+#esp_parr{
+  margin-top: -2vh;
 }
 
 
@@ -350,7 +343,6 @@ strong {
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
-
 
 .navbar {
   background-color: var(--p-color);
@@ -544,6 +536,23 @@ strong {
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
+#accesosrap{
+  font-size: 23px;
+}
+
+#ESG_sup{
+  margin-top: 5vh;
+}
+
+#ESG_inf{
+  margin-bottom: 5vh;
+}
+
+#Lat{
+  margin-right: 2.5vh;
+  margin-left: 2.5vh;
+}
+
 .site-footer {
   background-color: var(--dark-color);
   position: relative;
@@ -694,30 +703,7 @@ strong {
     padding-top: 150px;
   }
 
-  .pricing-thumb {
-    padding: 35px;
-  }
-
-  .schedule-table h3 {
-    font-size: 22px;
-  }
-
-  .schedule-table th {
-    padding: 20px;
-  }
-
-  .schedule-table tr, 
-  .schedule-table td {
-    padding: 25px;
-  }
-
-  .ticket-section {
-    padding-top: 130px;
-  }
-
-  .ticket-form {
-    padding: 30px;
-  }
+ 
 }
 
 @media screen and (max-width: 767px) {
