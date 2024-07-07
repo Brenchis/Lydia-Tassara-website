@@ -39,7 +39,7 @@ https://templatemo.com/tm-583-festava-live
   --border-radius-medium:         20px;
   --border-radius-small:          10px;
 
-  --font-weight-light:            400;
+  --font-weight-light:            300;
   --font-weight-normal:           600;
   --font-weight-bold:             600;
 }
@@ -57,13 +57,14 @@ body {
 h1 {
   font-size: var(--h1-font-size);
   color:var(--white-color);
-  font-weight: var(--font-weight-bold)
+  font-weight: var(--font-weight-bold);
 }
 
 h2 {
   font-size: var(--h2-font-size);
-  color:var(--dark-color);
-  font-weight: var(--font-weight-bold)
+  color:var(--white-color);
+  font-weight: var(--font-weight-light);
+   letter-spacing: 1vw;
 }
 
 h3 {
@@ -203,6 +204,13 @@ strong {
   margin-top: -2vh;
 }
 
+/*---------------------------------------
+  CUSTOM ICON COLOR               
+-----------------------------------------*/
+.custom-icon {
+  color: var(--secondary-color);
+}
+
 
 /*---------------------------------------
   SECTION               
@@ -339,6 +347,10 @@ strong {
   width: 100%;
   height: 100%;
 }
+
+/*---------------------------------------
+  CARRUSEL      
+-----------------------------------------*/
 
 /*---------------------------------------
   NAVIGATION              
@@ -735,3 +747,15 @@ strong {
   }
 }
 
+#hamburguesa {
+  border: none;
+  background: transparent;
+  font-size: 10vw;
+}
+
+
+@media (min-width: 768px) {  /* Hide on screens wider than 768px (desktop) */
+  #hamburguesa {
+    display: none;
+  }
+}
