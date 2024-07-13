@@ -568,9 +568,6 @@ strong {
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
-#accesosrap{
-  font-size: 23px;
-}
 
 #ESG_sup{
   margin-top: 5vh;
@@ -580,7 +577,7 @@ strong {
   margin-bottom: 5vh;
 }
 
-#Lat{
+#lat{
   margin-right: 2.5vh;
   margin-left: 2.5vh;
 }
@@ -685,6 +682,33 @@ strong {
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (max-width: 430px) {
+
+
+
+  #social-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #accesosweb{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 2.2vh;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #hiperv{
+    margin-left: 7.1vw;
+    margin-right: 7.1vw;
+
+  }
+
+  #lat  {
+    height: 15vw;
+  }
+
   h1 {
     font-size: 50px;
   }
@@ -733,6 +757,11 @@ strong {
 
 
 @media (min-width: 430px) {
+
+  #accesosrap{
+    font-size: 23px;
+  }
+  
   #hamburguesa {
     display: none;
   }
@@ -770,4 +799,10 @@ strong {
     border-radius: 100%;
   }
   
+}
+
+#pline  {
+  height: 0.5vh; /* Adjust the value to your desired thickness */
+  border: none; /* Remove default border styles */
+  background-color: var(--secondary-color); /* Set a background color for the line */
 }
