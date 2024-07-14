@@ -194,6 +194,28 @@ strong {
   color: var(--secondary-color);
 }
 
+/*---------------------------------------
+  TITULOS Y PARRAFOS
+-----------------------------------------*/
+
+#encabezados{
+  font-family: var(--body-font-family);
+  color: var(--dark-color);
+  font-size: 43px;
+  font-weight: var(--font-weight-bold);
+  text-align: left;
+}
+
+#parrafos{
+  font-family: var(--text-font-family);
+  color: var(--dark-color);
+  text-align: left;
+}
+
+#mar_inf{
+  margin-bottom: 3vh;
+}
+
 
 /*---------------------------------------
   SECTION               
@@ -354,7 +376,7 @@ strong {
    letter-spacing: 1vw;
 }
 
-.carru{
+.cb_size{
   max-height: 68vh;
 
 }
@@ -376,6 +398,35 @@ strong {
   height: 10vh;
   border-radius: 100%;
 }
+
+/*-------------BANNER------------------*/
+
+.image-button-container {
+  position: relative;
+}
+
+.image-button-container img {
+  display: block;
+}
+
+.image-button-container button {
+  position: absolute; /* Position the button absolutely */
+  top: 85%; /* Center the button vertically */
+  left: 50%; /* Center the button horizontally */
+  transform: translate(-50%, -50%); /* Offset the button to its top-left corner */
+  z-index: 1; /* Ensure the button is on top of the image */
+}
+
+.image-button-container a {
+  position: absolute; /* Position the button absolutely */
+  top: 85%; /* Center the button vertically */
+  left: 50%; /* Center the button horizontally */
+  transform: translate(-50%, -50%); /* Offset the button to its top-left corner */
+  z-index: 1; /* Ensure the button is on top of the image */
+}
+
+
+
 
 /*---------------------------------------
   NAVIGATION              
@@ -573,6 +624,10 @@ strong {
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
+
+#bpad{
+  margin-top: 15vh;
+}
 
 .textbody{
   margin-top: 3vh;
@@ -804,7 +859,8 @@ strong {
 
 @media (max-width: 480px) {
 
-  .carru{
+
+  .cb_size{
     height: 45vh;
   }
 
