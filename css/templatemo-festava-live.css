@@ -652,6 +652,54 @@ strong {
 }
 
 /*---------------------------------------
+  MAPITA       
+-----------------------------------------*/
+
+#tam_map{
+  margin-left: 7.3vw;
+  margin-top: -2vh;
+}
+
+/*---------------------------------------
+  MI FORMULARIO          
+-----------------------------------------*/
+
+#formcuerpo {
+  background-color: var(--dark-color);
+  width: 85.3%;
+  margin: 0vh 5vw 5vh 7.35vw;
+  padding: 5vh 5vw 5vh 5vw;
+}
+
+#formar {
+  margin-bottom: 5vh;
+}
+
+#formfilas {
+  background-color: var(--white-color);
+  border: none;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+#form-text-area {
+  background-color: var(--white-color);
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+}
+
+.martext{
+  margin-left: 5vh;
+}
+
+#mar_and_pad{
+  margin: 0vh 0vw 0vh 0vw;
+  padding: 0vh 0vw 0vh 0vw;
+
+}
+
+/*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
 
