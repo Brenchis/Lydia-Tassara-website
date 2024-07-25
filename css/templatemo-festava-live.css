@@ -568,7 +568,21 @@ strong {
   height: 100%;
 }
 
-/*-------------FESTIVALES------------------*/
+/*-------------SERVI IMAGENES------------------*/
+
+#img-mar{
+  margin-top: 3.7vh;
+}
+
+#img-mar1{
+  margin-top: 2.1vh;
+}
+
+/*---------------------------------------
+  ABOUT        
+-----------------------------------------*/
+
+/*------------- FESTIVALES------------------*/
 
 #tam-triada {
   width: 27vw;
@@ -596,6 +610,10 @@ strong {
 
 #bloques{
   padding: 7.3vh 7.3vw 7vh 7.3vw;
+}
+
+#bloques1{
+  padding: 7.3vh 5.7vw 7vh 9.7vw;
 }
 
 .artists-thumb {
