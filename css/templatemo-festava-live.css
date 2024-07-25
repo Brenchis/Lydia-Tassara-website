@@ -750,7 +750,7 @@ strong {
   margin-bottom: 5vh;
 }
 
-#lat{
+.lat{
   margin-right: 2.5vh;
   margin-left: 2.5vh;
 }
@@ -849,6 +849,20 @@ strong {
     transform: rotate(360deg);
   }
 }
+
+/*---------------------------------------
+  ANIMACIONES       
+-----------------------------------------*/
+
+#ani {
+  transition: transform 0.5s ease-in-out;
+}
+
+#ani:hover {
+  transform: scale(1.2);
+}
+
+
 
 
 /*---------------------------------------
