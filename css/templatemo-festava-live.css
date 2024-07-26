@@ -975,6 +975,10 @@ strong {
 
 @media (max-width: 700px) {
 
+  #img_shop{
+    height: 45vh;
+  }
+
   #bshop{
     margin-top: -2vh;
   }
@@ -997,16 +1001,10 @@ strong {
   .cb_size{
     height: 45vh;
   }
-
   
   #cb_size1{
     overflow: hidden;
     width: 97vw;
-  }
-
-    
-  #img_shop{
-    height: 45vh;
   }
 
   #bloque_d_texto {
