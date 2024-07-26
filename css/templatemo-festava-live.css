@@ -975,6 +975,24 @@ strong {
 
 @media (max-width: 700px) {
 
+  #bshop{
+    margin-top: -2vh;
+  }
+
+  #b_accesible {
+    margin-top: 17vh;
+    margin-bottom: 1vh;
+  }
+
+  #carru_encabezado {
+    font-size: 46px;
+  }
+  
+  #carru_sep {
+    font-size: 30px;
+     letter-spacing: 1vw;
+  }
+
 
   .cb_size{
     height: 45vh;
