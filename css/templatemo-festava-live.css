@@ -1083,11 +1083,38 @@ strong {
     display: block;
   }
 
+  .row {
+    display: block;
+  }
+
   .col-md-6 {
     margin: 0;
     padding: 10px;
   }
 
+
+}
+
+
+/*-----Festivales-------*/
+
+@media (max-width: 480px) {
+
+#tam-triada {
+  width: 90vw;
+}
+
+#margen_titu {
+  margin-left: 3.5vw;
+}
+
+#mar1{
+  margin-left: 4.3vw;
+}
+
+#mar2{
+  margin-left: 4.3vw;
+}
 
 }
 
