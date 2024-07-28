@@ -377,6 +377,17 @@ strong {
   CARRUSEL Y BANNERS
 -----------------------------------------*/
 
+#img_shop {
+  background-image: url(../img/banner_shop.jpg);
+  background-size: cover;
+  width: 84.4vw;
+  height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 7vh;
+}
+
 #bloque_d_texto {
   align-content: center;
   margin-bottom: 25vh;
@@ -397,7 +408,7 @@ strong {
 }
 
 .cb_size{
-  max-height: 68vh;
+  height: 68vh;
 
 }
 
@@ -418,35 +429,6 @@ strong {
   height: 10vh;
   border-radius: 100%;
 }
-
-/*-------------BANNER------------------*/
-
-.image-button-container {
-  position: relative;
-}
-
-.image-button-container img {
-  display: block;
-}
-
-.image-button-container button {
-  position: absolute; /* Position the button absolutely */
-  top: 85%; /* Center the button vertically */
-  left: 50%; /* Center the button horizontally */
-  transform: translate(-50%, -50%); /* Offset the button to its top-left corner */
-  z-index: 1; /* Ensure the button is on top of the image */
-}
-
-.image-button-container a {
-  position: absolute; /* Position the button absolutely */
-  top: 85%; /* Center the button vertically */
-  left: 50%; /* Center the button horizontally */
-  transform: translate(-50%, -50%); /* Offset the button to its top-left corner */
-  z-index: 1; /* Ensure the button is on top of the image */
-}
-
-
-
 
 /*---------------------------------------
   NAVIGATION              
@@ -1000,11 +982,6 @@ strong {
 
 @media (max-width: 480px) {
 
-
-  #bshop{
-    margin-top: -2vh;
-  }
-
   #b_accesible {
     margin-top: 17vh;
     margin-bottom: 1vh;
@@ -1022,13 +999,6 @@ strong {
 
   .cb_size{
     height: 45vh;
-  }
-  
-  #cb_size1{
-    overflow: hidden;
-    width: 85vw;
-    margin-left: 4.2vw;
-
   }
 
   #bloque_d_texto {
@@ -1065,6 +1035,19 @@ strong {
   height: 0.5vh; 
   border: none;
   background-color: #2c164a;
+}
+
+/*-----BANNER Y CARRUSEL-cambio de Imagenes-------*/
+
+@media (max-width: 480px) {
+  #img_shop {
+    background-image: url(../img/banner_shop-movil.jpg);
+    background-size: cover;
+    width: 84.5vw;
+    height: 40vh;
+    margin-left: 4.5vw;
+    padding-bottom: 5vh;
+  }
 }
 
 /*-----Margenes y Padding Responsive-------*/
@@ -1138,7 +1121,7 @@ strong {
 
 }
 
-/*-----About y inicio------- VER CORELACION ENTRE MIBLOCK Y C_BLOCK*/
+/*-----About y inicio-------s*/
 
 @media (max-width: 480px) {
 
