@@ -719,10 +719,6 @@ strong {
   font-size: 30px;
 }
 
-.martext{
-  margin-left: 5vh;
-}
-
 #mar_and_pad{
   margin: 0vh 0vw 0vh 0vw;
   padding: 0vh 0vw 0vh 0vw;
@@ -1117,5 +1113,28 @@ strong {
 }
 
 }
+
+/*-----About y inicio-------*/
+
+@media (max-width: 480px) {
+
+
+#c_block{
+  padding: 3vh 5.3vw 2.5vh 0vw;
+}
+
+#overimg{
+    overflow: hidden;
+    width: 85.3vw;
+
+}
+
+#formcuerpo {
+  width: 100%;
+  margin: 0vh 0vw 5vh 0vw;
+  padding: 5vh 7vw 5vh 7vw;
+}
+  
+  }
 
 
