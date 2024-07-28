@@ -377,6 +377,17 @@ strong {
   CARRUSEL Y BANNERS
 -----------------------------------------*/
 
+#img_calltoaction {
+  background-image: url(../img/carrusel/C1.jpg);
+  background-size: cover;
+  width: 84.4vw;
+  height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 7vh;
+}
+
 #img_shop {
   background-image: url(../img/banner_shop.jpg);
   background-size: cover;
@@ -546,7 +557,7 @@ strong {
   position: static;
   overflow: hidden;
   padding-top: 100px;
-  height: calc(100vh - 51px);
+  height: 85vh;
 }
 
 .hero-section small {
@@ -562,8 +573,7 @@ strong {
 .hero-section .container {
   position: relative;
   z-index: 2;
-  height: 100%;
-  padding-bottom: 50px;
+  height: 83%;
 }
 
 .hero-section .container .row {
@@ -625,6 +635,12 @@ strong {
 
 #mibloc{
   padding: 3vh 0.53vw 0vh 0.53vw;
+}
+
+#bq_encab_indx{
+  padding: none;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .artists-thumb {
@@ -696,7 +712,7 @@ strong {
 #formcuerpo {
   background-color: var(--dark-color);
   width: 85.3%;
-  margin: 0vh 5vw 5vh 7.35vw;
+  margin: 0vh 5vw 0vh 7.35vw;
   padding: 5vh 5vw 5vh 5vw;
 }
 
@@ -729,7 +745,7 @@ strong {
 -----------------------------------------*/
 
 #bpad{
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 .textbody{
@@ -1040,14 +1056,25 @@ strong {
 /*-----BANNER Y CARRUSEL-cambio de Imagenes-------*/
 
 @media (max-width: 480px) {
+
+  #img_calltoaction {
+    background-image: url(../img/carrusel/C1_movil.jpg);
+    background-size: cover;
+    width: 84.5vw;
+    height: 40vh;
+    margin-left: 5vw;
+    padding-bottom: 5vh;
+  }
+
   #img_shop {
     background-image: url(../img/banner_shop-movil.jpg);
     background-size: cover;
     width: 84.5vw;
     height: 40vh;
-    margin-left: 4.5vw;
+    margin-left: 5vw;
     padding-bottom: 5vh;
   }
+
 }
 
 /*-----Margenes y Padding Responsive-------*/
@@ -1067,6 +1094,10 @@ strong {
 
   #mibloc{
     padding: 3vh 7.3vw 0vh 7.3vw;
+  }
+
+  #bq_encab_indx{
+    padding: 3vh 5vw 0vh 5vw;
   }
 
   #img-mar{
@@ -1095,6 +1126,9 @@ strong {
     padding: 10px;
   }
 
+  #bpad{
+    margin-top: 3vh;
+  }
 
 }
 
@@ -1138,12 +1172,12 @@ strong {
 
 #formcuerpo {
   width: 100%;
-  margin: 0vh 0vw 5vh 0vw;
+  margin: 0vh 0vw 3vh 0vw;
   padding: 5vh 7vw 5vh 7vw;
 }
 
 #index_head{
-  font-size: 39px;
+  font-size: 36px;
 }
   
 }
