@@ -206,6 +206,14 @@ strong {
   text-align: left;
 }
 
+#index_head{
+  font-family: var(--body-font-family);
+  color: var(--dark-color);
+  font-size: 43px;
+  font-weight: var(--font-weight-bold);
+  text-align: left;
+}
+
 #parrafos{
   font-family: var(--text-font-family);
   color: var(--dark-color);
@@ -628,6 +636,15 @@ strong {
   padding: 7.3vh 6.5vw 7vh 6.5vw;
 }
 
+#bloque2{
+  padding: 7.3vh 0vw 7vh 0.8vw;
+  width: 99.2%;
+}
+
+#mibloc{
+  padding: 3vh 0.53vw 0vh 0.53vw;
+}
+
 .artists-thumb {
   position: relative;
   overflow: hidden;
@@ -983,9 +1000,6 @@ strong {
 
 @media (max-width: 480px) {
 
-  #img_shop{
-    height: 45vh;
-  }
 
   #bshop{
     margin-top: -2vh;
@@ -1012,7 +1026,9 @@ strong {
   
   #cb_size1{
     overflow: hidden;
-    width: 97vw;
+    width: 85vw;
+    margin-left: 4.2vw;
+
   }
 
   #bloque_d_texto {
@@ -1059,6 +1075,14 @@ strong {
   }
 
   #bloque1{
+    padding: 3vh 7.3vw 0vh 7.3vw;
+  }
+
+  #bloque2{
+    padding: 3vh 7.3vw 0vh 7.3vw;
+  }
+
+  #mibloc{
     padding: 3vh 7.3vw 0vh 7.3vw;
   }
 
@@ -1114,7 +1138,7 @@ strong {
 
 }
 
-/*-----About y inicio-------*/
+/*-----About y inicio------- VER CORELACION ENTRE MIBLOCK Y C_BLOCK*/
 
 @media (max-width: 480px) {
 
@@ -1134,7 +1158,11 @@ strong {
   margin: 0vh 0vw 5vh 0vw;
   padding: 5vh 7vw 5vh 7vw;
 }
+
+#index_head{
+  font-size: 39px;
+}
   
-  }
+}
 
 
