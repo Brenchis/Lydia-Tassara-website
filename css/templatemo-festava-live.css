@@ -18,7 +18,7 @@ https://templatemo.com/tm-583-festava-live
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #773EC5;
   --dark-color:                   #262626;
-  --p-color:                      #BFBFBF75;
+  --p-color:                      #BFBFBF;
   --border-color:                 #7fffd4;
   --link-hover-color:             #773ec5;
 
@@ -444,27 +444,30 @@ strong {
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
-
 #mar_logo {
   margin-left: 0.05vw;
   margin-right: 17.2vw;
 }
 
-.navbar {
+
+.sticky-wrapper.is-sticky .navbar {
   background-color: var(--p-color);
-  opacity: 98%;
+  opacity: 100%;
+}
+
+.navbar {
+  background: var(--p-color);
+  opacity: 83%;
 }
 
 .navbar {
   z-index: 9;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link {
   border-radius: var(--border-radius-large);
   margin: 10px;
   padding: 10px 20px;
 }
-
 .navbar-nav .nav-link {
   display: inline-block;
   color: var(--dark-color);
@@ -474,15 +477,13 @@ strong {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
 
 .navbar-toggler {
-  border: 0;
-  padding: 0;
+  border: 0; padding: 0;
   cursor: pointer;
   margin: 0;
   width: 30px;
@@ -516,8 +517,7 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--p-color);
-  transition: background 10ms 300ms ease;
+  background: var(--dark-color); transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
   height: 2px;
@@ -532,7 +532,7 @@ strong {
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--p-color);
+  background: var(--dark-color);
   width: 30px;
   height: 2px;
   content: '';
@@ -555,6 +555,7 @@ strong {
 }
 .hero-section {
   position: static;
+  position: relative;
   overflow: hidden;
   padding-top: 100px;
   height: 85vh;
