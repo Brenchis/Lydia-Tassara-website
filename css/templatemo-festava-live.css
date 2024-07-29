@@ -1183,4 +1183,28 @@ strong {
   
 }
 
+/*-----Ajustes de Scrolldown para movil-------*/
+
+@media (max-width: 480px) {
+
+  /* No media queries needed, this animation will work on all screen sizes */
+
+.artists-hover {
+  /* Existing styles for hover animation on desktop */
+  opacity: 0;  /* Initially hidden */
+  transform: translateY(100%);  /* Initially moved off-screen */
+  transition: all 0.5s ease;  /* Smooth transition */
+}
+
+/* New styles for scroll reveal animation */
+
+.artists-hover.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+  
+  }
+
+
+
 

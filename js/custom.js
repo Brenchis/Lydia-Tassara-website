@@ -30,5 +30,21 @@
   
   })(window.jQuery);
 
+  /* Animacion reveal para movil con Gemini */ 
+
+  const elementosAnimados = document.querySelectorAll('.artists-hover');
+
+const observador = new IntersectionObserver(entradas => {
+    entradas.forEach(entrada => {
+        if (entrada.isIntersecting) {
+            entrada.target.classList.add('is-revealed');   
+
+        } else {
+            entrada.target.classList.remove('is-revealed');
+        }
+    });
+});
+
+elementosAnimados.forEach(elemento => observador.observe(elemento));
   
 
