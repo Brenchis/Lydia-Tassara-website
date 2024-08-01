@@ -206,6 +206,16 @@ strong {
   text-align: left;
 }
 
+
+#encabez{
+  font-family: var(--body-font-family);
+  color: var(--dark-color);
+  font-size: 43px;
+  font-weight: var(--font-weight-bold);
+  text-align: left;
+  padding-top: 7vh;
+}
+
 #index_head{
   font-family: var(--body-font-family);
   color: var(--dark-color);
@@ -222,6 +232,10 @@ strong {
 
 #mar_inf{
   margin-bottom: 3vh;
+}
+
+.inf{
+  margin-bottom: 4vh;
 }
 
 /*---------------------------------------
@@ -714,7 +728,7 @@ strong {
   background-color: var(--dark-color);
   width: 85.3%;
   margin: 0vh 5vw 0vh 7.35vw;
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 7vh 5vw 5vh 5vw;
 }
 
 #formar {
