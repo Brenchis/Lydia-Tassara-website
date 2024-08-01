@@ -92,23 +92,25 @@
                 <div class="row">
                     <div id="mibloc" class="col-lg-12">
                         <h1 id="encabezados" class="mb-4">LET'S KEEP IN TOUCH</h1>
-                        <form id="formcuerpo">
+                        <form id="formcuerpo" action="https://api.web3forms.com/submit" method="POST">
                             <div class="row">
+                                
                                 <div id="formar" class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" id="formfilas" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="hidden" name="access_key" value="a7f81a27-0486-4ab1-9896-72281d7d01e2">
+                                        <input type="text" id="formfilas" class="form-control" id="name" name="name"placeholder="Your Name">
                                         <label for="name">FULL NAME</label>
                                     </div>
                                 </div>
                                 <div id="formar" class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" id="formfilas" class="form-control" id="email" placeholder="Your Email">
+                                        <input type="email" id="formfilas" class="form-control" id="email" name="email" placeholder="Your Email">
                                         <label for="email">EMAIL</label>
                                     </div>
                                 </div>
                                 <div id="formar" class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" id="formfilas" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" id="formfilas" class="form-control" id="subject" name="message" placeholder="Subject">
                                         <label for="subject">SUBJECT</label>
                                     </div>
                                 </div>
@@ -118,8 +120,9 @@
                                         <label for="message">MESSAGE</label>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <a class="btn custom-btn smoothscroll">SEND MESSAGE</a>
+                                <div id="b-padding" class="col-12">
+                                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                                    <button type="submit" class="btn custom-btn smoothscroll">SEND MESSAGE</button>
                                 </div>
                             </div>
                         </form>
