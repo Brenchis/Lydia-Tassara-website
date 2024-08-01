@@ -398,8 +398,10 @@ strong {
   height: 68vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   padding-bottom: 7vh;
+  display: flex;
+  flex-direction: column; 
 }
 
 #img_shop {
@@ -453,6 +455,12 @@ strong {
   width:4.7vw;
   height: 10vh;
   border-radius: 100%;
+}
+
+#gifmar{
+  margin-bottom: 27vh;
+  margin-top: 4vh;
+  width: 35%;
 }
 
 /*---------------------------------------
@@ -617,6 +625,14 @@ strong {
 
 #mar1{
   margin-left: 0.1vw;
+}
+
+#festmar{
+  margin-left: 0vw;
+}
+
+#festmar{
+  margin-left: 1.5vw;
 }
 
 /*---------------------------------------
@@ -1177,12 +1193,21 @@ strong {
   margin-left: 4.3vw;
 }
 
+#festmar{
+  margin-left: 8.5vw;
+}
+
 }
 
 /*-----About y inicio-------s*/
 
 @media (max-width: 480px) {
 
+  #gifmar{
+    margin-bottom: 17vh;
+    margin-top: 2vh;
+    width: 74%;
+  }
 
 #c_block{
   padding: 3vh 5.3vw 2.5vh 0vw;
@@ -1203,6 +1228,8 @@ strong {
 #index_head{
   font-size: 36px;
 }
+
+
   
 }
 
